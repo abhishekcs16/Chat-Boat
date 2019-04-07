@@ -1,0 +1,17 @@
+<aiml version="1.0.1" encoding="UTF-8">
+
+<!-- send_mail.aiml -->
+
+    <category>
+        <pattern>SEND MAIL</pattern>
+        <template>
+            <random>
+             <li> On it! </li>
+             <li> Ok </li>
+            </random>
+            <system> python mail1.py</system>
+        </template>
+    </category>
+
+</aiml>
+
